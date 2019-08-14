@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: calc((100*100vw) / 600);
+}
+.head{
+    width: 6rem;
+    height: 0.44rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.head img{
+    width: 0.82rem;
+    height: 0.19rem;
+    vertical-align: middle;
+    position: absolute;
+    top: 0.1rem;
+    left: 0.15rem;
+}
+.head span{
+    font-size: 0.22rem;
+    color: #E22828;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.15rem;
+}
+.nav ul li{
+    list-style: none;
+    font-size: 0.16rem;
+    color: white;
+    line-height: 0.4rem;
+}
+.nav{
+    width: 6rem;
+    height: 0.4rem;
+    background-color: #E01B1B;
+}
+.nav ul{
+    display: flex;
+    margin: 0 1rem;
+    justify-content: space-between;
+}
+.pic .pic-first div:first-child{
+    background-image: url("https://i1.hoopchina.com.cn/touch/195/84055896180195/touch_home_84055896180195_1563432976_s_49880_o_w__h__4884.jpeg@.webp");
+    background-size: cover;
+    width: 6rem;
+    height: 1.67rem;
+    float: left;
+    font-size: 0.14rem;
+    position: relative;
+    background-position-y: -0.5rem;
+}
+.pic .pic-first div:nth-child(2){
+    background-image: url("https://i1.hoopchina.com.cn/touch/907/151212357827907/touch_home_151212357827907_1565593042_s_29324_o_w__h__14829.jpeg@.webp");
+    width: 6rem;
+    height: 1.67rem;
+    float: left;
+    /* background-size: cover; */
+    font-size: 0.14rem;
+    position: relative;
+    background-position-y: -0.5rem;
+    
+}
+.pic .pic-first div:nth-child(3){
+    background-image: url("https://i1.hoopchina.com.cn/touch/907/151212357827907/touch_home_151212357827907_1565656971_s_3580_o_w__h__97592.jpeg@.webp");
+    width: 6rem;
+    height: 1.67rem;
+    float: left;
+    background-size: cover;
+    font-size: 0.14rem;
+    position: relative;
+    background-position-y: -0.5rem;
+}
+.pic .pic-first div p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(3,0,0, 0.3);
+    height: 0.2rem;
+    width: 6rem;
+    padding-left: 0.1rem;
+    line-height: 0.2rem;
+
+}
+
+.pic{
+    width: 6rem;
+    height: 1.67rem;
+    position: relative;
+   
+}
+.pic .pic-first{
+    width: 18rem;
+    height: 1.67rem;
+    overflow: hidden;
+    position: absolute;
+    animation: mymove 8s infinite;
+
+}
+@keyframes mymove{
+    0%,25%{
+        left: 0;
+    }
+    35%,60%{
+        left:-6rem;
+    }
+    70%,100%{
+        left:-12rem;
+    }
+}
+.item{
+    width: 6rem;
+}
+.item>div{
+    width: 6rem;
+    height: 0.78rem;
+    margin: 0.1rem 0.1rem;
+    margin-bottom: none;
+    display: flex;
+    border-bottom: 0.01rem solid #F0F0F0;
+}
+.item .item1{
+    display: flex;
+    padding: 0 0.1rem;
+    padding-left: none;
+}
+.item img{
+    width: 0.72rem;
+    height: 0.72rem;
+    text-align: center;
+}
+.item .item1 p:first-child{
+    font-size: 0.14rem;
+    background-color: #999999;
+    color: white;
+    height: 0.18rem;
+    line-height: 0.18rem;
+   padding: 0 0.06rem;
+    text-align: center;
+    margin-top: 0.04rem;
+}
+.item .item1 p:nth-child(2){
+    font-size: 0.18rem;
+    color: #444444;
+}
+.divide{
+    width: 6rem;
+    height: 0.15rem;
+    background-color: #F3F3F3;
+}
+.basketball{
+    width: 100%;
+    background-color: white;
+}
+.basketball .basket{
+    margin: 0 0.1rem;
+}
+.basketball .basket .biaoti p:first-child{
+    color: #C80C00;
+    font-size: 0.2rem;
+    box-sizing: border-box;
+}
+.basketball .basket .biaoti p:last-child{
+    font-size: 0.2rem;
+    box-sizing: border-box;
+    color: #999999;
+}
+.basketball .basket .biaoti{
+    border-bottom: 0.02rem solid #F0F0F0;
+    height: 0.3rem;
+    display: flex;
+    padding: 0.15rem 0;
+}
+.basketball .basket .liuyan{
+    border-bottom: 0.02rem solid #F0F0F0;
+    padding: 0.15rem 0;
+}
+.basketball .basket .liuyan p:first-child{
+    font-size: 0.2rem;
+    color: #444444;
+    padding: 0.05rem 0;
+}
+.basketball .basket .liuyan p:last-child{
+    font-size: 0.12rem;
+    color: #999999;
+}
+.basketball .basket .liuyan1{
+    border-bottom: 0.02rem solid #F0F0F0;
+    padding: 0.15rem 0;
+}
+
+.basketball .basket .liuyan1 .aa{
+    font-size: 0.2rem;
+    color: #C80C00;
+    padding: 0.05rem 0;
+}
